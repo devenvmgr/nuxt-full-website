@@ -15,7 +15,7 @@
     <Timeline />
     <ProductHero />
 
-    <div>
+    <div class="flex justify-around">
       <ProductDisplayAll total="4" />
       <ProductDisplayAll total="4" />
     </div>

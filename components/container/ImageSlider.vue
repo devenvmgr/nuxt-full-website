@@ -4,9 +4,9 @@
       <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
       <div class="slide">
         <figure class="slide-figure">
-          <img class="slide-img" src="path/to/image-1.jpg" />
+          <img class="slide-img" src="https://placekitten.com/g/640/400" />
           <figcaption class="slide-caption">
-            <p>...</p>
+            <p>Im Slide Image 1</p>
           </figcaption>
         </figure>
         <!-- .slide-figure -->
@@ -15,9 +15,9 @@
       <input type="radio" name="slider" class="trigger" id="two" />
       <div class="slide">
         <figure class="slide-figure">
-          <img class="slide-img" src="path/to/image-2.jpg" />
+          <img class="slide-img" src="https://placekitten.com/g/800/600" />
           <figcaption class="slide-caption">
-            <p>...</p>
+            <p>Im Slide Image 2</p>
           </figcaption>
         </figure>
         <!-- .slide-figure -->
@@ -26,9 +26,9 @@
       <input type="radio" name="slider" class="trigger" id="three" />
       <div class="slide">
         <figure class="slide-figure">
-          <img class="slide-img" src="path/to/image-3.jpg" />
+          <img class="slide-img" src="https://placekitten.com/g/720/600" />
           <figcaption class="slide-caption">
-            <p>...</p>
+            <p>Im Slide Image 3</p>
           </figcaption>
         </figure>
         <!-- .slide-figure -->
@@ -68,10 +68,18 @@ img {
   display: none;
 }
 
+.slider {
+  padding: 40px;
+}
+
+.slider-wrapper {
+  margin: 100px;
+}
+
 .slider,
 .slider-wrapper {
   position: relative;
-  height: 250px;
+  height: 400px;
 }
 
 .slide {

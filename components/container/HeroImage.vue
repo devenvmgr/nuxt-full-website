@@ -20,7 +20,7 @@ export default {}
     url('https://placekitten.com/g/800/800');
 
   /* Set a specific height */
-  height: 50%;
+  height: 600px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
