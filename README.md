@@ -8,15 +8,15 @@ The goal of this project is to allow future Rockys (and maybe you) to quickly sc
 ## TODO LIST
 
 Priority: 
-[] - Add a background that looks all funky (like this) --> https://blog.hubspot.com/hubfs/shopify-blog-1.png
-[] - Add a border 
-[] - Add Popups with toast - https://getbootstrap.com/docs/4.3/components/toasts/
+[x] - Add a background that looks all funky (like this) --> https://blog.hubspot.com/hubfs/shopify-blog-1.png
+[X] - Add a border 
 [] - Add Popups that take over the screen.
 [] - Add Popups that spit canvas
 [] - Add Popups that spit video
 
 
 Secondary: 
+[] - Add a button that with toast - https://getbootstrap.com/docs/4.3/components/toasts/
 [] - Set tailwind to purge. 
 [] - fix footer to be 3-col. 
 [] - Fix hero image to look like this https://codetiburon.com/app/uploads/2017/05/2-1.png

@@ -10,8 +10,5 @@
 export default {}
 </script>
 
-<style>
-header {
-  background-color: red;
-}
+<style Scoped>
 </style>

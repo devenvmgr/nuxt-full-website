@@ -2,6 +2,8 @@
   <div>
     <Header />
     <HeroImage />
+    <CenterCtaFull />
+
     <ModalButton />
     <CenterCta size="narrow" button="false" />
     <ImageSlider />
@@ -19,6 +21,7 @@
     <div class="flex justify-around">
       <ProductDisplayAll total="4" />
       <ProductDisplayAll total="4" />
+      <ModalButtonMega />
     </div>
 
     <div class="flex">
@@ -53,6 +56,7 @@ import Logo from '~/components/Logo.vue'
 import Header from '~/components/container/Header.vue'
 import HeroImage from '~/components/container/HeroImage.vue'
 import CenterCta from '~/components/container/CenterCta.vue'
+import CenterCtaFull from '~/components/container/CenterCtaFull.vue'
 import ImageSlider from '~/components/container/ImageSlider.vue'
 import ImageColumns from '~/components/container/ImageColumns.vue'
 import Timeline from '~/components/container/Timeline.vue'
@@ -65,12 +69,16 @@ import FormContact from '~/components/container/FormContact.vue'
 import Footer from '~/components/container/Footer.vue'
 
 import ModalButton from '~/components/container/ModalButton.vue'
+import ModalButtonFull from '~/components/container/ModalButtonFull.vue'
+
 export default {
   components: {
     Header,
     HeroImage,
     ModalButton,
+    ModalButtonFull,
     CenterCta,
+    CenterCtaFull,
     ImageSlider,
     ImageColumns,
     Timeline,
