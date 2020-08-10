@@ -14,10 +14,10 @@ Priority:
 [] - Add Popups that take over the screen.
 [] - Add Popups that spit canvas
 [] - Add Popups that spit video
-[] - 
 
 
 Secondary: 
+[] - Set tailwind to purge. 
 [] - fix footer to be 3-col. 
 [] - Fix hero image to look like this https://codetiburon.com/app/uploads/2017/05/2-1.png
 [] - Fix Nav to look like this (logo + menu + cta) https://codetiburon.com/app/uploads/2017/05/3.png
@@ -34,7 +34,6 @@ Secondary:
 [] - Add Popovers
 [] - Add tabbed content - But sexy - https://blog.hubspot.com/hubfs/transferwise-landing-page-1.png
 
-
 Wishlist: 
 
 ## Component List
@@ -42,6 +41,7 @@ Wishlist:
 * BITS - these are reusable components. They are given props. 
   * ImageColumn - Image, Header, Body, Button. (all are optional)
   * TestimonialColumn - Text, circular image, name, and title
+  * Popup - header, body, footer
 
 * Containers - These are using bits to generate other content. Modify these boys.
   * Header - Contains Navigation. 
@@ -55,6 +55,7 @@ Wishlist:
   * SocialButtons - a list of social media buttons. 
   * FormContactUs - a standard form. 
   * CenterCTA - A call to action center area. 
+  * Popup_Button - A call to the popup bit.
 
 ## Build Setup
 

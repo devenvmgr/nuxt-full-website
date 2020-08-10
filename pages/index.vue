@@ -2,6 +2,7 @@
   <div>
     <Header />
     <HeroImage />
+    <ModalButton />
     <CenterCta size="narrow" button="false" />
     <ImageSlider />
 
@@ -63,10 +64,12 @@ import SocialButtons from '~/components/container/SocialButtons.vue'
 import FormContact from '~/components/container/FormContact.vue'
 import Footer from '~/components/container/Footer.vue'
 
+import ModalButton from '~/components/container/ModalButton.vue'
 export default {
   components: {
     Header,
     HeroImage,
+    ModalButton,
     CenterCta,
     ImageSlider,
     ImageColumns,
